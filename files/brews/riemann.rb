@@ -2,10 +2,10 @@ require 'formula'
 
 class Riemann < Formula
   homepage 'http://riemann.io'
-  url 'http://aphyr.com/riemann/riemann-0.2.4.tar.bz2'
-  sha1 '465965eb1c82f65872b85e685c44111a9af9f794'
+  url 'http://aphyr.com/riemann/riemann-0.2.5.tar.bz2'
+  sha1 'b5122eb059b28e1be47812898e6444f80880e0c9'
   
-  version '0.2.4-boxen1'
+  version '0.2.5-boxen1'
 
   def install
     bin.install 'bin/riemann'
